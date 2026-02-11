@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./book.png), url(./movie.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200px, 180px;
+    background-color: rgb(252, 231, 234);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+div{
+    text-align: center;
+}
+
+#information{
+    margin-top: 20px;
+}
+
+h1{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: rgb(1, 1, 61);
+}
+
+button{
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(255, 132, 110);
+    border-radius: 18px;
+    padding: 8px 13px;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(43, 0, 0);
+}
