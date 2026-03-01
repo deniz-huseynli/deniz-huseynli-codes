@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+
+table{
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+th{
+    background-color: rgb(150, 182, 211);
+}
+
+img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(197, 229, 255);
+}
+
+th:hover{
+    background-color: rgb(248, 109, 109);
+    cursor: not-allowed;
+}
+
+h1:hover{
+    color: royalblue;
+}
+
+td:hover{
+    background-color: rgb(145, 174, 238);
+    cursor: pointer;
+}
