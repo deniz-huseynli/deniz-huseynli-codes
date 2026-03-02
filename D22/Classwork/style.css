@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px auto;
+    width: 15vw;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+thead, tfoot{
+    background-color: rgb(70, 166, 255);
+}
+
+tbody{
+    background-color: lightblue;
+}
+
