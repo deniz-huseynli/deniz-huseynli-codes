@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    width: 65vw;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+
+}
+
+thead{
+    background-color: lightblue;
+}
+
+img{
+    width: 150px;
+}
+
+#image{
+    text-align: center;
+}
