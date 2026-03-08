@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#information{
+    background-color: #ebebeb;
+    padding: 7px;
+    width: 320px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+body{
+    font-family: Lato, sans-serif;
+    padding: 20px;
+}
+
+#computer{
+    width: 400px;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#computer-image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #853ae0;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+#link1:hover, #link2:hover{
+    text-decoration: underline;
+}
+
+#link3{
+    display: block;
+    margin-top: 7px;
+    text-decoration: underline;
+    color: black;
+}
+
+#price{
+    color: #B12704
+}
+
+P{
+    margin-bottom: 10px;
+}
+
