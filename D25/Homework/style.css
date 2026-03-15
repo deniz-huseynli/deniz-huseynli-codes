@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: auto;
+    background-image: url(./background-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#menu{
+    width: 220px;
+    height: 100vh;
+    background-color: rgba(65, 82, 99, 0.8);
+    color: white;
+}
+
+#my-app{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+ul li{
+    list-style: none;
+    padding: 18px 20px;
+    margin: 10px 10px;
+    border: 1px solid white;
+}
+
+li{
+    text-align: center;
+}
+
+ul li:hover{
+    background-color: black;
+    cursor: pointer;
+}
