@@ -1,0 +1,18 @@
+label, button{
+    display: block;
+    margin-bottom: 5px;
+}
+
+button{
+    margin-top: 10px;
+    background-color: midnightblue;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(3, 3, 179);
+    cursor: pointer;
+}

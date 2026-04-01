@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+h1, p{
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 19px;
+}
+
+button{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+img{
+    width: 90px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: rgb(179, 3, 3);
+    cursor: pointer;
+}

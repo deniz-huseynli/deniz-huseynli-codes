@@ -1,0 +1,17 @@
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+div{
+    background-color: rgb(198, 212, 230);
+    border: 1px solid rgb(1, 148, 1);
+    width: 350px;
+    height: 270px;
+    margin: 20px auto;
+}
+
+div h2, div h3, div label{
+    margin-left: 15px;
+    margin-top: 18px;
+}
