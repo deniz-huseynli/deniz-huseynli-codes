@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Cancellation Request Form</h1>
+        <form action="">
+            <label for="name">Name</label>
+            <div id="namepart">
+            <div class="name">
+            <input type="text" name="name" id="name" autofocus>
+            <br>
+            <small>First Name</small>
+            </div>
+
+            <div class="name">
+            <input type="text" name="lastname" id="surname">
+            <br>
+            <small>Last Name</small>
+            </div>
+            </div>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="product">Product / Service to be Canceled</label>
+            <input type="text" id="product" name="product">
+
+            <label for="reason">Reason for Cancellation</label>
+            <textarea id="reason" name="reason" rows="4"></textarea>
+
+            <label for="effective">Effective from</label>
+            <input type="date" id="effective" name="effective">
+
+            <label for="contact">How can we contact you?</label>
+            <select id="contact" name="contact">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+            </select>
+
+            <label for="signature">Signature</label>
+            <textarea name="signature" id="signature" rows="6"></textarea>
+            <button type="reset" id="clear">Clear</button>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./background-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#main{
+    background-color: rgba(216, 237, 227, 0.9);
+    width: 600px;
+    padding: 20px 40px 40px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: 10px;
+    color: rgb(11, 83, 69);
+    text-align: center;
+    background-color: white;
+}
+
+label{
+    display: block;
+    color: rgb(11, 83, 69);
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+#namepart label{
+    margin: 0 0 5px;
+}
+
+.name{
+    width: 48%;
+    float: left;
+    margin-left: 8px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+#effective{
+    width: 50%;
+}
+
+a{
+    display: block;
+    font-size: 12px;
+    color: rgb(52, 152, 219);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    background-color: rgb(11, 83, 69);
+    color: white;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 20px;
+}
+
+small{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+
+small{
+    display: block;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    text-align: left;
+}
+
+#surname{
+    float: right;
+}
+
+#clear{
+    border: none;
+    color: rgb(52, 152, 219);
+    display: block;
+    background: none;
+    margin: 5px 0;
+}
+
+#clear:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#submit{
+    background-color: rgb(11, 83, 69);
+    color: white;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    background-color: rgb(7, 56, 46);
+    cursor: pointer;
+}
