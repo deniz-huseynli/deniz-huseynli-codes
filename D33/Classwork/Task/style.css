@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    width: 250px;
+    background-color: #111;
+    padding: 20px;
+    float: left;
+    height: 100vh;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+ul i{
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+ul button:hover{
+    cursor: pointer;
+    background-color: rgb(19, 116, 180);
+}
+
+ul button{
+    margin-top: 20px;
+    width: 70%;
+    padding: 10px;
+    background-color: #1d9bf0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+main{
+    margin-left: 250px;
+    height: 100vh;
+    overflow: auto;
+}
+
+header{
+    width: 600px;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header i{
+    margin-right: 10px;
+}
+
+#banner{
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+section{
+    width: 600px;
+    padding: 20px;
+    border-bottom: 1px solid #333;
+    margin: 0 auto;
+}
+
+#profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#follow{
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+ul i{
+    float: left;
+}
+
+section b{
+    font-size: 20px;
+}
+
+section i{
+    color: #777;
+}
+
+section p{
+    margin: 10px 0;
+}
+
+article{
+    display: flex;
+    align-items: start;
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    width: 600px;
+    margin: 0 auto;
+}
+
+article img{
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+article i,#name{
+    color: rgb(113, 118, 123);
+}
+
+article p{
+    margin-left: 7px;
+    display: block;
+}
+
+ul li:hover, article:hover,#follow:hover, #app:hover, #return:hover{
+    cursor: pointer;
+}
