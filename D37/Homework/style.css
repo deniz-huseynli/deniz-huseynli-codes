@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+#flower {
+    position: relative;
+    width: 800px;
+    margin: 50px 100px;
+}
+
+img {
+    width:100%;
+}
+
+#white {
+    position: absolute;
+    background-color: white;
+    width: 530px;
+    padding: 50px;
+    top: 100px;
+    right: 170px;
+    z-index: 1;
+}
+
+h1 {
+    font-family: "Dancing Script", sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Supermercado One", sans-serif;
+}
