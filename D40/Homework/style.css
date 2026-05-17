@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./background-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Outfit", sans-serif;
+}
+
+header{
+    width: 100vw;   
+    background-color: rgb(44, 122, 147); 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 70px;
+}
+
+nav p{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#search{
+    color: white;
+    font-size: 22px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(224, 224, 224);
+    gap: 35px;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#drop1-li{
+    position: relative;
+}
+
+#drop1{
+    display: none;
+    position: absolute;
+    background-color: rgb(44, 122, 147);
+    width: 190px; 
+    padding: 10px 0;
+    left: 0; 
+    list-style-type: none;
+    top: 100%;
+}
+
+#drop1 li{
+    padding: 12px 20px;
+    color: white;
+}
+
+#drop1-li:hover #drop1{
+    display: block;
+}
+
+#drop2-li{
+    position: relative;
+}
+
+#drop-2{
+    display: none;
+    position: absolute;
+    background-color: rgb(44, 122, 147); 
+    width: 200px;
+    padding: 10px 0;
+    left: 100%; 
+    top: 0;    
+    list-style-type: none;
+}
+
+#drop-2 li{
+    padding: 12px 20px;
+    color: white;
+}
+
+#drop2-li:hover #drop-2{
+    display: block;
+}
