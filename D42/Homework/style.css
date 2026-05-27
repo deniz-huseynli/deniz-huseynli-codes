@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-container{
+    width: 90vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-side{
+    width: 45vw;
+    height: 100%;
+    padding: 6vh 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+#left-side h1{
+    margin-top: 3vh;
+    margin-left: 9vw;
+    font-size: 7.5vh;
+    font-weight: bold;
+    width: 40%;
+}
+
+#left-side p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 9vw;
+    font-size: 4vh;
+    margin-top: 13vh;
+    opacity: 0.85;
+    width: 19.5vw;
+}
+
+#left-side h2{
+    margin-left: 10vw;
+    margin-top: 21vh;
+    background-color: rgba(46, 45, 45, 0.4);
+    text-shadow: 0 0 10px rgb(26, 25, 25);
+    padding: 1.2vh 4vw;
+    border-radius: 16px;
+    font-size: 2.8vh;
+    font-weight: bold;
+}
+
+#left-side h2:hover{
+    cursor: pointer;
+    background-color: rgba(46, 45, 45, 0.6);
+}
+
+#right-side{
+    width: 40vw;
+    height: 120%;
+    background-color: rgba(80, 79, 79, 0.4);
+    padding: 3.5vh 3vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#right-side div{
+    align-self: center;
+    margin-bottom: 3vh;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+#right-side i{
+    margin-right: 8px;
+}
+
+#right-side select{
+    background-color: rgba(100, 100, 100, 0);
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+#right-side select:hover{
+    cursor: pointer;
+}
+
+#right-side select option{
+    background-color: rgb(42, 49, 61);
+}
+
+#right-side h2{
+    color: white;
+    text-align: center;
+    font-size: 3.5vh;
+    margin-bottom: 2.5vh;
+}
+
+#right-side form{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+}
+
+#right-side form div{
+    margin-bottom: 2vh;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+}
+
+#username, #email, #password, #confirm-password{
+    width: 100%;
+    padding: 1.5vh 1.2vw;
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+}
+
+#username::placeholder, #email::placeholder,#password::placeholder, #confirm-password::placeholder{
+    color: white;
+}
+
+#terms:hover{
+    cursor: pointer;
+}
+
+#terms-label {
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+#right-side button{
+    width: 100%;
+    padding: 1.4vh;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+#right-side button:hover{
+    cursor: pointer;
+}
+
+#sign-up{
+    background-color: rgba(58, 134, 200,0.6);
+    color: white;
+    font-weight: bold;
+}
+
+#continue{
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+}
