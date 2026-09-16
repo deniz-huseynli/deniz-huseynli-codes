@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(17, 22, 37);
+}
+
+#clock{
+    background-color: rgb(43, 145, 219);
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px black;
+    color: white;
+    width: 520px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#gün,#il{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#saat,#deqiqə,#saniyə{
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.nöqtə{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 72px;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+#am-pm{
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 15px;
+}
