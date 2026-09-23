@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="ümumi">
+        <h2>Anbar Üzrə Yeni Məhsul Girişi</h2>
+        
+        <form id="form">
+            <div class="hisse">
+                <label for="kateqoriya">Kateqoriya</label>
+                <input type="text" placeholder="Məs: Electronics">
+            </div>
+            
+            <div class="hisse">
+                <label for="stok">Stok Sayı</label>
+                <input type="number" placeholder="Məs: 25">
+            </div>
+            
+            <div class="hisse">
+                <label for="link">Şəkil Linki</label>
+                <input type="text">
+            </div>
+            
+            <button type="button" onclick="addProduct()">Məlumatı Əlavə Et</button>
+        </form>
+
+        <table id="cedvel">
+            <thead>
+                <tr>
+                    <th>Kod</th>
+                    <th>Kateqoriya</th>
+                    <th>Stok</th>
+                    <th>Şəkil</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
