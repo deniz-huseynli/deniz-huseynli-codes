@@ -1,0 +1,48 @@
+.navbar, .dropdown-menu{
+    background-color: rgb(10, 107, 114) !important;
+}
+
+.navbar-brand, .nav-link, .dropdown-item{
+    color: white !important;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(16, 118, 126) !important;
+    color: white !important;
+}
+
+#carouselExampleCaptions{
+    width: 50vw !important;
+    height: 450px;
+    margin: 20px auto !important;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(176, 190, 194);
+}
+
+#carouselExampleCaptions .carousel-inner,
+#carouselExampleCaptions .carousel-item{
+    height: 100%;
+}
+
+#carouselExampleCaptions .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container{
+    margin-top: 10px !important;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body{
+    background-color: rgb(6, 46, 49);
+    color: white;
+}
