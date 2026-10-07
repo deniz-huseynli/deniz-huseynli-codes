@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Başlıq -->
+        <h3 class="text-center mb-4">Kinoteatrın Film Siyahısı</h3>
+
+        <!-- Form Bölməsi -->
+        <div class="form-hissəsi">
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label class="form-label text-muted">Kateqoriya</label>
+                    <input type="text" id="kateqoriyaGiris" class="form-control" placeholder="Məs. Fantastika, Dram">
+                    <img id="sekilOnBaxis" class="onbaxis-sekli" alt="Şəkil">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label text-muted">Bilet Sayı</label>
+                    <input type="number" id="sayGiris" class="form-control" placeholder="Min. 30">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label text-muted">Şəkil Linki</label>
+                    <input type="text" id="sekilLinkGiris" class="form-control">
+                </div>
+            </div>
+            <!-- Əlavə et düyməsi -->
+            <button id="elaveEtDuyme" class="btn btn-success w-100 fw-bold">Siyahıya Əlavə Et</button>
+        </div>
+
+
+        <!-- Cədvəl -->
+            <table class="table table-bordered text-center bg-white">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Bilet Kodu</th>
+                        <th>Kateqoriya</th>
+                        <th>Bilet Sayı</th>
+                        <th>Şəkil</th>
+                    </tr>
+                </thead>
+                <tbody id="cedvelGovdesi">
+                          
+                </tbody>
+            </table>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

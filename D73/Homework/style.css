@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+body{
+    background-color: rgb(143, 170, 179);
+}
+
+h3{
+    color: rgb(25, 39, 65);
+    font-family: "Pirata One", system-ui;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#elaveEtDuyme{
+    background-color: rgb(25, 39, 65);
+    border: none;
+}
+
+.form-hissəsi{
+    margin-bottom: 25px;
+    background-color: rgb(176, 196, 209);
+    border: 1px solid rgb(25, 39, 65);
+    border-radius: 6px;
+    padding: 25px;
+}
+
+.onbaxis-sekli{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-top: 10px;
+    display: none;
+}
+
+.sekil{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+tr{
+    background-color: rgb(127, 155, 173);
+    border: 1px solid rgb(25, 39, 65);
+    border-radius: 6px;
+}
+
