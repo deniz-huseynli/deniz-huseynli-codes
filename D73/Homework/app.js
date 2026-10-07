@@ -1,29 +1,29 @@
-let kateqoriyaGiris = document.querySelector("#kateqoriyaGiris");
-let sayGiris = document.querySelector("#sayGiris");
-let sekilLinkGiris = document.querySelector("#sekilLinkGiris");
-let elaveEtDuyme = document.querySelector("#elaveEtDuyme");
-let cedvelGovdesi = document.querySelector("#cedvelGovdesi");
-let sekilOnBaxis = document.querySelector("#sekilOnBaxis");
+let janrGiris = document.querySelector("#janrGiris");
+let biletSayi = document.querySelector("#biletSayi");
+let filmAfişa = document.querySelector("#filmAfişa");
+let filmElaveEt = document.querySelector("#filmElaveEt");
+let tableBody = document.querySelector("#tableBody");
+let filmAfişaÖnBaxiş = document.querySelector("#filmAfişaOnBaxiş");
 
 //Şəkil
-sekilLinkGiris.addEventListener('input', function () {
-    if (sekilLinkGiris.value!== ""){
-        sekilOnBaxis.src=sekilLinkGiris.value;
-        sekilOnBaxis.style.display="block";
+filmAfişa.addEventListener('input', function () {
+    if (filmAfişa.value!== ""){
+        filmAfişaÖnBaxiş.src=filmAfişa.value;
+        filmAfişaÖnBaxiş.style.display="block";
     } else {
-        sekilOnBaxis.style.display="none";
+        filmAfişaÖnBaxiş.style.display="none";
     }
 })
 
 //Cədvələ əlavə etmək
-elaveEtDuyme.addEventListener('click', function(){
+filmElaveEt.addEventListener('click', function(){
 
-let kateqoriya = kateqoriyaGiris.value;
-let say = sayGiris.value;
-let sekilUnvani = sekilLinkGiris.value;
+let janr = janrGiris.value;
+let say = biletSayi.value;
+let sekilUnvani = filmAfişa.value;
 
 
-if(kateqoriya==="" || say==="" || sekilUnvani=== ""){
+if(janr==="" || say==="" || sekilUnvani=== ""){
     alert("Zəhmət olmasa, bütün xanaları doldurun!");
     return;
 }
@@ -33,17 +33,17 @@ let yaradilankod = "KOD-"+Math.floor(Math.random()*900+100);
 
 let yeniSətir = "<tr>";
 yeniSətir+="<td>"+yaradilankod+"</td>";
-yeniSətir+="<td>"+kateqoriya+"</td>";
+yeniSətir+="<td>"+janr+"</td>";
 yeniSətir+="<td>"+say+"</td>";
 yeniSətir+="<td><img src='"+sekilUnvani+"' class='sekil' alt='Şəkil'></td>";
 yeniSətir+="<td><button onclick='if(confirm(\"Silmək istədiyinizə əminsiniz?\"))this.parentElement.parentElement.remove()' class='btn btn-danger'>Sil</button></td>";
 
-cedvelGovdesi.innerHTML+=yeniSətir;
+tableBody.innerHTML+=yeniSətir;
 
 
-kateqoriyaGiris.value="";
-sayGiris.value="";
-sekilLinkGiris.value="";
-sekilOnBaxis.style.display="none";
+janrGiris.value="";
+biletSayi.value="";
+filmAfişa.value="";
+filmAfişaÖnBaxiş.style.display="none";
 
 });
