@@ -1,0 +1,93 @@
+.navbar-brand{
+    color: rgb(255, 179, 39);
+}
+
+#carouselExampleCaptions{
+    width: 65% !important;
+    height: 500px;
+    margin: 20px auto !important;
+    overflow: hidden;
+}
+
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body{
+    color: black;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.card-body a{
+    background: #FFBC0D;
+    color: black;
+    border: none;
+    padding: 12px 45px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#carouselExampleCaptions .carousel-inner,
+#carouselExampleCaptions .carousel-item{
+    height: 100%;
+}
+
+#carouselExampleCaptions .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.div-1{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    margin: 50px auto;
+}
+
+.div-2{
+    margin-top: 100px;
+}
+
+.McDonalds-Menu{
+    width: 55%;
+    height: auto;
+}
+
+#yazi-1{
+    width: 45%;
+    padding: 0 40px;
+}
+
+#yazi-1 h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#yazi-1 p{
+    font-size: 14px;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+#div-1 img{
+    width: 800px;
+    height: 700px;
+}
+
+#yazi-1 button{
+    background: #FFBC0D;
+    color: black;
+    border: none;
+    padding: 12px 45px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
