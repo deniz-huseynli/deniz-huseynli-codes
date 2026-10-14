@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label,input,button,p{
+    display: block;
+    width: 25%;
+    margin: 6px auto;
+}
+
+input, button{
+    padding: 3px;
+}
+
+button{
+    background: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+table{
+    margin: 80px auto;
+    width: 85% !important; 
+}
+
+th{
+    background-color: rgb(155, 154, 154) !important;
+}
