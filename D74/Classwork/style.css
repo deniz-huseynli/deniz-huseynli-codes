@@ -23,7 +23,7 @@
 }
 
 .card-body a{
-    background: #FFBC0D;
+    background: rgb(6, 6, 53);
     color: black;
     border: none;
     padding: 12px 45px;
@@ -83,8 +83,8 @@
 }
 
 #yazi-1 button{
-    background: #FFBC0D;
-    color: black;
+    background: rgb(6, 6, 53);
+    color: white;
     border: none;
     padding: 12px 45px;
     font-size: 14px;

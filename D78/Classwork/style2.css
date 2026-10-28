@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+.card-img-top{
+    height: 300px !important;
+    object-fit: cover;
+}
+
+body{
+    background-color: rgb(143, 170, 179);
+}
+
+.card-body{
+    color: black;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.card-body a{
+    color: black;
+    border: none;
+    padding: 12px 45px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Pirata One", system-ui;
+    color: rgb(14, 60, 119);
+}

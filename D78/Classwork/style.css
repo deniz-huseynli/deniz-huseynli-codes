@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+#carouselExampleCaptions{
+    width: 65% !important;
+    height: 450px !important;
+    margin: 20px auto !important;
+    overflow: hidden;
+}
+
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body{
+    color: black;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.card-body a{
+    background: #FFBC0D;
+    color: black;
+    border: none;
+    padding: 12px 45px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#carouselExampleCaptions .carousel-inner,
+#carouselExampleCaptions .carousel-item{
+    height: 100%;
+}
+
+#carouselExampleCaptions .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.div-1{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    margin: 50px auto;
+}
+
+.div-2{
+    margin-top: 100px;
+}
+
+.McDonalds-Menu{
+    width: 55%;
+    height: auto;
+}
+
+#yazi-1{
+    width: 45%;
+    padding: 0 40px;
+}
+
+#yazi-1 h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#yazi-1 p{
+    font-size: 14px;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+#div-1 img{
+    width: 800px;
+    height: 700px;
+}
+
+#yazi-1 button{
+    background: #FFBC0D;
+    color: black;
+    border: none;
+    padding: 12px 45px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Pirata One", system-ui;
+    color: rgb(14, 60, 119);
+}
+
+body{
+    background-color: rgb(143, 170, 179);
+}
+
+#button-random{
+    background-color: rgb(5, 6, 80);
+    color: white;
+    display: block;
+    margin: 40px auto;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+}
+
+#button-random:hover {
+    background-color: #333333;
+}
