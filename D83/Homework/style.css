@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(178, 216, 211);
+}
+
+.form-box{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.card{
+    transition: opacity 0.3s ease-in-out;
+}
