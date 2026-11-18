@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Smooch+Sans:wght@100..900&display=swap');
+
+body {
+    background-color: rgb(178, 199, 216);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar dizaynını fərqləndirək */
+.navbar {
+    border-bottom: 2px solid #111116;
+    background-color: rgb(55, 61, 80) !important;
+}
+
+
+/* Tema */
+.tema{
+    width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Smooch Sans", sans-serif;
+    font-weight: 700;
+}
+
+.tema button{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.tema{
+    border: 2px solid black;
+    width: 200px;
+}
+
+.tema button:hover{
+    cursor: pointer;
+}
+
+#cehrayiBtn{ 
+    background: rgb(252, 228, 236);
+}
+
+#yasilBtn{ 
+    background: rgb(167, 209, 171); 
+}
+
+p{
+    font-family: "Smooch Sans", sans-serif;
+    font-weight: 900;
+    font-size: 28px !important;
+}
+
+/* Xoş gəldin mesajının hərflərinə kölgə verək ki, 3D effekti yaratsın */
+#xosGeldinMesaji {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    color: rgb(80, 25, 102) !important;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 900;
+    font-size: 84px;
+}
+
+/* Çıxış et düyməsini qırmızı və diqqətçəkən edək */
+#cixisDüymesi {
+    background-color: #dc3545; /* Tünd qırmızı (Bootstrap's danger color) */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Kənarlarını oval edirik */
+    padding: 8px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Üzərinə gələndə yumşaq dəyişmə effekti */
+    box-shadow: 0 4px 6px rgba(220, 53, 69, 0.3); /* Qırmızı kölgə */
+}
+
+/* Düymənin üzərinə mausu gətirəndə (hover) necə görünsün */
+#cixisDüymesi:hover {
+    background-color: #c82333; /* Rəngi bir az tündləşir */
+    transform: translateY(-2px); /* Yuxarı qalxır */
+    box-shadow: 0 6px 8px rgba(220, 53, 69, 0.4); /* Kölgəsi böyüyür */
+}
+
+/* Düyməyə klik edəndə (active) necə görünsün */
+#cixisDüymesi:active {
+    transform: translateY(1px); /* Aşağı düşür */
+    box-shadow: 0 2px 4px rgba(220, 53, 69, 0.2);
+}
+
+img {
+    width: 17%;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
