@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!--Navbar -->
+    <nav class="navbar navbar-dark bg-dark px-4 py-3 sticky-top ">
+    <a class="navbar-brand fw-bold fs-4" href="#">MyBrand <i class="fa-solid fa-store"></i></a>
+
+    <div class="d-flex align-items-center gap-3">
+        <button id="məhsullarBtn" class="btn btn-outline-light">Məhsullar</button>
+        <button id="əlavəEtBtn" class="btn btn-success">Məhsul Əlavə Et</button>
+
+    <button id="səbətBtn" class="btn btn-warning position-relative fw-bold">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span id="səbətSayı" class="səbət-nişanı">0</span>
+    </button>
+    </div>
+    </nav>
+
+<div class="əsas-container">
+    <div id="məhsullarEkranı">
+        <h2 class="text-center mb-4 fw-bold">Bütün məhsullar</h2>
+        <p id="boşMəhsulMesajı" class="text-center text-muted fs-5 d-none">Hələ məhsul əlavə edilməmişdir. Məhsul əlavə etmək üçün "Məhsul Əlavə Et" düyməsini basın.</p>
+    
+    <div id="məhsullarQutusu" class="məhsullar-şəbəkəsi"></div>
+    </div>
+
+<div id="əlavəEtEkranı" class="d-none">
+    <div class="card shadow p-4 forma-qutusu">
+        <h3 class="text-center text-success mb-4 fw-bold">Yeni məhsul əlavə et</h3>
+
+        <form id="məhsulFormu">
+            <div class="mb-3">
+                <label class="form-label text-muted">Məhsulun adı:</label>
+                <input type="text" id="məhsulAdıGiriş" class="form-control"
+                placeholder="Əlavə edəcəyiniz məhsulun adını yazın" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label text-muted">Məhsulun qiyməti:</label>
+                <input type="number" id="məhsulQiymətiGiriş" class="form-control"
+                placeholder="Məhsul qiymətini daxil edin" step="0.01" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label text-muted">Məhsul şəkil linki:</label>
+                <input type="text" id="məhsulŞəkilGiriş" class="form-control"
+                placeholder="Əlavə edəcəyiniz məhsulun şəkil linkini qoyun" required>
+                <img id="şəkilÖnBaxış" class="önbaxış-şəkil" alt="Ön baxış foto">
+            </div>
+
+            <button type="submit" class="btn btn-success w-100 fw-bold">Məhsulu əlavə et</button>
+        </form>
+        </div>
+    </div>
+
+    <div id="səbətEkranı" class="d-none">
+    <div class="səbət-konteyneri card shadow p-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h3 class="fw-bold m-0">Mənim səbətim</h3>
+            <button id="səbətiTəmizləBtn" class="btn btn-outline-danger btn-sm">Səbəti təmizlə</button>
+        </div>
+
+        <div id="səbətQutusu">
+
+        </div>
+
+        <hr>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+            <h4 class="m-0">Toplam məbləğ: <span id="ümumiMəbləğ" class="text-success fw-bold">0</span>₼</h4>
+            <button id="sifarişBtn" class="btn btn-primary fw-bold px-4">Sifarişi təsdiqlə</button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js" integrity="sha512-8LENNbXmzI/Gbj+OwXmqR6V4QaUAw0/porPzy1+dQoJqC0JPHedWoe0DDOTL2uHA5XXJyIsPtiMHH86pVlay6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
