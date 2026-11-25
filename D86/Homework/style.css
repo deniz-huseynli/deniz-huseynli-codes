@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Smooch+Sans:wght@100..900&display=swap');
+
+body{
+    background-color: rgb(186, 206, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.əsas-container{
+    width: 92%; 
+    margin: 30px auto;
+}
+
+.səbət-nişanı{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff0000;
+    color: azure;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, sans-serif; 
+    min-width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.məhsullar-şəbəkəsi{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.məhsul-kartı{
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.məhsul-kartı:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.məhsul-şəkli{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.forma-qutusu{
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: none;
+}
+
+.önbaxış-şəkil{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+.səbət-konteyneri{
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: none;
+}
+
+.səbət-sətiri{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: beige;
+    border-radius: 10px;
+    border: 1px solid rgb(71, 221, 66);
+}
+
+.səbət-şəkli{
+    width: 65px;
+    height: 65px;
+    object-fit: cover; 
+    border-radius: 8px;
+}
